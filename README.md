@@ -22,7 +22,7 @@
 
   * License
 
-# HELLO MICROVERSE
+# PORTFOLIO-SETUP
 
 > My first project at microverse with a simple message "Hello Microverse"
 
