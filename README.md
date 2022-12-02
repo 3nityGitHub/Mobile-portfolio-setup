@@ -17,6 +17,15 @@
 
 - [📖 About the Project](#about-project)
  - [🛠 Built With](#built-with)
+     - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -33,7 +42,60 @@
 ## 🛠 Built With <a name="built-with"></a>
     - HTML
     - CSS
+## 💻 Getting Started <a name="getting-started"></a>  
 
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project:
+- You need to have a Code Editor Installed
+- Make sure Nodejs and NPM is installed in your system for linters
+
+### Setup
+
+To clone this repository to your desired folder, use your code editor terminal or git bash, then type the command below:
+
+- git clone https://github.com/3nityGitHub/Mobile-portfolio-setup.git
+
+
+
+### Install
+
+> To check linters run the following command:
+1. Install WebHint:
+
+npm install --save-dev hint@7.x
+
+2. Install StyleLint
+
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x 
+
+## Check Linters Error
+1. To check CSS or SCSS linters error:
+
+
+### Usage
+
+To run the project:
+
+- open cloned folder in your code editor
+
+### Run tests
+
+To run tests and check for errors:
+- After installing the required linter,
+
+npx stylelint "**/*.{css,scss}"
+
+- To fix CSS or SCSS linters error:
+
+npx stylelint "**/*.{css,scss}" --fix
+
+
+### Deployment
+
+You can deploy this project using:
 
 ## 👥 Author: <a name="authors"></a>
 
