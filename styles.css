@@ -400,6 +400,8 @@
   background: #ff6b00;
   color: #fff5e1;
   margin-top: 40px;
+  border: 1px;
+  justify-content: center;
 }
 
 .about_me_container {
