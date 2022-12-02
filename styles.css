@@ -226,6 +226,7 @@
 }
 
 .see_prjt_buttn {
+  font-family: 'Inter', sans-serif;
   flex-direction: row;
   align-items: center;
   padding: 19px;
@@ -239,6 +240,8 @@
   order: 3;
   flex-grow: 0;
   text-align: center;
+  justify-content: center;
+  border: 1px;
 }
 
 .recent_work_container {
@@ -317,6 +320,7 @@
   background: #ff6b00;
   margin-top: 30px;
   color: #fff5e1;
+  border: 1px;
 }
 
 .second_project {
