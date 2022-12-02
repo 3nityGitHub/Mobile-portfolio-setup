@@ -35,10 +35,10 @@
     - CSS
 
 
-## 👥 Rapheal Okonta <a name="authors"></a>
+## 👥 Author: <a name="authors"></a>
 
 
-👤 **Author1**
+👤 **Rapheal Okonta**
 
 - GitHub: [@3nityGitHub](https://github.com/3nityGitHub)
 - Twitter: [@tbarijohnson](https://twitter.com/tbarijohnson)
