@@ -29,7 +29,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-
 - [📝 License](#license)
 
 
@@ -61,7 +60,6 @@ To clone this repository to your desired folder, use your code editor terminal o
 
 ### Install
 
-> To check linters run the following command:
 1. Install WebHint:
 
 npm install --save-dev hint@7.x
