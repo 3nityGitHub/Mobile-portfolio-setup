@@ -17,9 +17,7 @@
 
 - [📖 About the Project](#about-project)
  - [🛠 Built With](#built-with)
-     - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [💻 Getting Started](#getting-started)
+      - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)

@@ -357,7 +357,7 @@
   left: 0;
   top: 4137px;
   background: #1c1a19;
-  background-image: url('image folder/Frame.png');
+  background-image: url("image folder/Frame.png");
   background-repeat: no-repeat;
   background-position: 100% 20%;
 }
