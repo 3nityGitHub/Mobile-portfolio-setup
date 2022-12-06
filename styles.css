@@ -244,6 +244,17 @@
   border: 1px;
 }
 
+.see_prjt_buttn:hover {
+  background: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.see_prjt_buttn:focus {
+  background: #e05304;
+  color: #fff;
+}
+
 .recent_work_container {
   flex-direction: column;
   align-items: center;
@@ -323,6 +334,30 @@
   border: 1px;
 }
 
+.see_project_works:hover {
+  background: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.see_project_works:focus {
+  background: #e05304;
+  color: #fff;
+}
+
+.see_project_works2:hover,
+.see_project_works3:hover {
+  background: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.see_project_works2:focus,
+.see_project_works3:focus {
+  background: #e05304;
+  color: #fff;
+}
+
 .second_project {
   position: absolute;
   background-image: url('image folder/ImgPlaceholder1.png');
@@ -357,7 +392,7 @@
   left: 0;
   top: 4137px;
   background: #1c1a19;
-  background-image: url("image folder/Frame.png");
+  background-image: url('image folder/Frame.png');
   background-repeat: no-repeat;
   background-position: 100% 20%;
 }
@@ -404,6 +439,17 @@
   justify-content: center;
 }
 
+.get_resume:hover {
+  background: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.get_resume:focus {
+  background: #e05304;
+  color: #fff;
+}
+
 .about_me_container {
   margin: 45px 40px;
 }
@@ -443,7 +489,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  margin-left: 90px;
+  margin-left: 60px;
 }
 
 .Language_skill2 {
@@ -453,7 +499,18 @@
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  margin-left: 90px;
+  margin-left: 50px;
+  margin-top: -50px;
+}
+
+.Language_skill3 {
+  width: 264px;
+  height: 24px;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  margin-left: 140px;
   margin-top: -50px;
 }
 
@@ -465,4 +522,154 @@
   font-weight: 400;
   font-size: 20px;
   text-align: center;
+}
+
+.form_section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 375px;
+  height: 874px;
+  padding-top: 120px;
+  padding-left: 24px;
+  padding-right: 24px;
+  gap: 58px;
+  margin-top: 1500px;
+}
+
+.form_text {
+  display: flex;
+  justify-content: center;
+  color: #172b4d;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  margin: 0 0 30px 30px;
+  width: 327px;
+}
+
+.contact_me_form {
+  margin: 100px 0 0 20px;
+  text-align: center;
+  width: 327px;
+  padding-top: 20px;
+  opacity: 1;
+}
+
+.form_input_height {
+  border-bottom: solid #dbd8d7;
+  height: 18px;
+  color: #3c3a39;
+  opacity: 1;
+}
+
+.form_input_names {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.938rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  color: #979493;
+  width: 327px;
+  margin: auto;
+  border: none;
+  opacity: 1;
+}
+
+.form_input_email {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.938rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  color: #979493;
+  width: 327px;
+  margin: auto;
+  border: none;
+  opacity: 1;
+}
+
+.form_input_textarea {
+  background: #fbf8f7;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.938rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  color: #979493;
+  width: 327px;
+  height: 114px;
+  margin: auto;
+  border: none;
+  opacity: 1;
+}
+
+.get_in_touch_button {
+  align-items: center;
+  padding: 12px;
+  width: 131px;
+  height: 48px;
+  background: #f55800;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20px;
+  border: 1px;
+}
+
+.social_media_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  padding-top: 20px;
+  height: 82px;
+  margin-top: 20px;
+}
+
+.border_line_form {
+  width: 100%;
+  border: 1.5px solid #1a1b1b;
+}
+
+.social_media_link_footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+}
+
+.social_media_icon_footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 3px;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: -35px;
+  color: #505f79;
+}
+
+.get_in_touch_button:hover {
+  background: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.get_in_touch_button:focus {
+  background: #e05304;
+  color: #fff;
 }
