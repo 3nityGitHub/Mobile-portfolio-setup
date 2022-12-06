@@ -622,10 +622,11 @@
   flex-direction: row;
   justify-content: center;
   list-style: none;
-  background: #e5e5e5;
   padding-top: 20px;
-  height: 72px;
-}
+  height: 82px;
+  margin-top: 20px;
+
+  }
 
 .border_line_form {
   width: 100%;
@@ -637,19 +638,21 @@
   flex-direction: row;
   align-items: center;
   list-style: none;
+  
 }
 
 .social_media_icon_footer {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 8px;
-  width: 40px;
-  height: 40px;
+  padding: 3px;
   border-radius: 8px;
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-top: -35px;
+  color: #505F79;
+
 }
 
 .get_in_touch_button:hover {
