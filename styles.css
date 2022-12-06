@@ -585,13 +585,14 @@
 
 .border_line_form {
   width: 100%;
-  border: 1.5px solid #b7b8ba;
+  border: 1.5px solid #1a1b1b;
 }
 
 .social_media_link_footer {
   display: flex;
   flex-direction: row;
   align-items: center;
+  list-style: none;
 }
 
 .social_media_icon_footer {
