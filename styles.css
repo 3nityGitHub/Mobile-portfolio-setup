@@ -607,3 +607,15 @@
   order: 0;
   flex-grow: 0;
 }
+
+.get_in_touch_button:hover{
+  background: #e5e5e5;
+  color: #f55800
+}
+
+.get_in_touch_button:focus{
+  background: #e05304;
+  color: #fff;
+}
+
+
