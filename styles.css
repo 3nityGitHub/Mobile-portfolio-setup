@@ -244,6 +244,26 @@
   border: 1px;
 }
 
+.see_prjt_buttn:hover,
+.see_project_works:hover,
+.see_project_works2:hover,
+.see_project_works3:hover,
+.get_resume:hover  {
+  background: #FFF5E1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.see_prjt_buttn:focus, 
+.see_project_works:focus,
+.see_project_works2:focus,
+.see_project_works3:focus,
+.get_resume:focus{
+  background: #e05304;
+  color: #fff;
+}
+
+
 .recent_work_container {
   flex-direction: column;
   align-items: center;
