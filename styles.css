@@ -489,7 +489,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  margin-left: 90px;
+  margin-left: 60px;
 }
 
 .Language_skill2 {
@@ -499,7 +499,18 @@
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  margin-left: 90px;
+  margin-left: 50px;
+  margin-top: -50px;
+}
+
+.Language_skill3 {
+  width: 264px;
+  height: 24px;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  margin-left: 140px;
   margin-top: -50px;
 }
 
