@@ -472,11 +472,13 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 375px;
+  height: 874px;
   padding-top: 120px;
   padding-left: 24px;
   padding-right: 24px;
   gap: 58px;
-  background: #e5e5e5;
+  margin-top: 1500px;
 }
 
 .form_text {
@@ -494,7 +496,7 @@
 }
 
 .contact_me_form {
-  margin: 120px 0 0 20px;
+  margin: 100px 0 0 20px;
   text-align: center;
   width: 327px;
   padding-top: 20px;
@@ -509,7 +511,6 @@
 }
 
 .form_input_names {
-  background: #e5e5e5;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -522,10 +523,10 @@
   margin: auto;
   border: none;
   opacity: 1;
+  
 }
 
 .form_input_email {
-  background: #e5e5e5;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
