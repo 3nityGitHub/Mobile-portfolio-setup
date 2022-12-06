@@ -467,7 +467,6 @@
   text-align: center;
 }
 
-
 .form_section {
   display: flex;
   flex-direction: column;
@@ -523,7 +522,6 @@
   margin: auto;
   border: none;
   opacity: 1;
-  
 }
 
 .form_input_email {
@@ -608,14 +606,13 @@
   flex-grow: 0;
 }
 
-.get_in_touch_button:hover{
-  background: #e5e5e5;
-  color: #f55800
+.get_in_touch_button:hover {
+  background: #FFF5E1;
+  color: #f55800;
+  border: 1px solid #f55800;
 }
 
-.get_in_touch_button:focus{
+.get_in_touch_button:focus {
   background: #e05304;
   color: #fff;
 }
-
-
