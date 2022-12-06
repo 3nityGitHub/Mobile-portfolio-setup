@@ -244,25 +244,16 @@
   border: 1px;
 }
 
-.see_prjt_buttn:hover,
-.see_project_works:hover,
-.see_project_works2:hover,
-.see_project_works3:hover,
-.get_resume:hover  {
-  background: #FFF5E1;
+.see_prjt_buttn:hover {
+  background: #fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
 }
 
-.see_prjt_buttn:focus, 
-.see_project_works:focus,
-.see_project_works2:focus,
-.see_project_works3:focus,
-.get_resume:focus{
+.see_prjt_buttn:focus {
   background: #e05304;
   color: #fff;
 }
-
 
 .recent_work_container {
   flex-direction: column;
@@ -343,6 +334,30 @@
   border: 1px;
 }
 
+.see_project_works:hover {
+  background: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.see_project_works:focus {
+  background: #e05304;
+  color: #fff;
+}
+
+.see_project_works2:hover,
+.see_project_works3:hover {
+  background: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.see_project_works2:focus,
+.see_project_works3:focus {
+  background: #e05304;
+  color: #fff;
+}
+
 .second_project {
   position: absolute;
   background-image: url('image folder/ImgPlaceholder1.png');
@@ -377,7 +392,7 @@
   left: 0;
   top: 4137px;
   background: #1c1a19;
-  background-image: url("image folder/Frame.png");
+  background-image: url('image folder/Frame.png');
   background-repeat: no-repeat;
   background-position: 100% 20%;
 }
@@ -422,6 +437,17 @@
   margin-top: 40px;
   border: 1px;
   justify-content: center;
+}
+
+.get_resume:hover {
+  background: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.get_resume:focus {
+  background: #e05304;
+  color: #fff;
 }
 
 .about_me_container {
@@ -627,7 +653,7 @@
 }
 
 .get_in_touch_button:hover {
-  background: #FFF5E1;
+  background: #fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
 }
