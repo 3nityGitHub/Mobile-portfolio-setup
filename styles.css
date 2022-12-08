@@ -388,7 +388,7 @@
 .About_me {
   position: absolute;
   width: 100%;
-  height: 1501px;
+  height: 1551px;
   left: 0;
   top: 4137px;
   background: #1c1a19;
@@ -458,7 +458,7 @@
   width: 327px;
   height: 9px;
   position: absolute;
-  margin: 100px 50px;
+  margin: 100px 0px;
 }
 
 .skill_list_container {
@@ -522,6 +522,7 @@
   font-weight: 400;
   font-size: 20px;
   text-align: center;
+  margin: 25px;
 }
 
 .form_section {
@@ -783,16 +784,6 @@
    margin-left: 720px;
 }
 
-.work_language {
-  align-items: center;
-  padding: 10px 12px;
-  width: 260px;
-  height: 40px;
-  list-style: none;
-  background: #fff;
-  border: 1px solid #8993a4;
-}
-
 .see_prjt_buttn {
   font-family: 'Inter', sans-serif;
   flex-direction: row;
@@ -811,6 +802,154 @@
   text-align: center;
   justify-content: center;
   border: 1px;
+}
+
+.recent_work_container {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 24px;
+  gap: 24px;
+  width: 1375px;
+  height: 1196px;
+  margin-top: -280px;
+}
+
+.recent_work_container2 {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 24px;
+  gap: 24px;
+  width: 1375px;
+  height: 1196px;
+  margin-top: -780px;
+}
+
+.first_project {
+  position: absolute;
+  background-image: url('image folder/ImgPlaceholder1.png');
+  margin: 45px 370px;
+  padding: auto;
+  background-repeat: no-repeat;
+}
+
+.second_project {
+  position: absolute;
+  background-image: url('image folder/ImgPlaceholder1.png');
+  margin: 435px 715px;
+  padding: auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.third_project {
+  position: absolute;
+  background-image: url('image folder/ImgPlaceholder1.png');
+  margin: 835px 20px;
+  padding: auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.About_me {
+  position: absolute;
+  width: 100%;
+  height: 1301px;
+  left: 0;
+  top: 4137px;
+  background: #1c1a19;
+  background-image: url('image folder/desktop\ Frame.png');
+  background-repeat: no-repeat;
+  background-position: 100% 10%;
+  margin-top: -1600px;
+}
+
+.about_line {
+  width: 1159px;
+  height: 9px;
+  position: absolute;
+  margin: 100px 80px;
+}
+
+.about_me_container {
+  margin: 135px 140px;
+}
+
+.about_me_content {
+  width: 567px;
+  height: 148px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #f4f5f7;
+  margin-top: 30px;
+}
+
+.skill_list_container {
+  flex-direction: row;
+  align-items: center;
+  padding: 120px 24px;
+  gap: 24px;
+  position: absolute;
+  width: 329px;
+  margin: 45px 145px;
+}
+
+
+.Language_skill {
+  width: 264px;
+  height: 24px;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  margin-left: 40px;
+}
+
+.Language_skill2 {
+  width: 264px;
+  height: 24px;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  margin-left: 300px;
+  margin-top: 5px;
+}
+
+.Language_skill3 {
+  width: 264px;
+  height: 24px;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  margin-left: 640px;
+  margin-top: 5px;
+}
+
+.Languge_skill_list{
+
+flex-direction: column;
+ 
+}
+
+.Languge_skill_list2{
+
+flex-direction: column;
+  margin-left: 250px;
+}
+
+.Languge_skill_list3{
+
+flex-direction: column;
+  margin-left: 490px;
+}
+
+.language{
+ 
+  margin: 35px;
 }
 
 
