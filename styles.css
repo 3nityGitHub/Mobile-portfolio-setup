@@ -781,6 +781,7 @@
   .img_placeholder {
     width: 684px;
     height: 448px;
+    margin: 0px 0px 0px 20px;
   }
 
   .recent_work_header {
