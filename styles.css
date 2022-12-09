@@ -103,7 +103,7 @@
 }
 
 .content {
-  width: 327px;
+  width: 369px;
   height: 123px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -274,7 +274,8 @@
 
 .first_project_title,
 .second_project_title,
-.third_project_title {
+.third_project_title,
+.third_project_mtitle {
   width: 295px;
   height: 81px;
   font-family: 'Crete Round', sans-serif;
@@ -288,7 +289,8 @@
 
 .first_project_content,
 .second_project_content,
-.third_project_content {
+.third_project_content,
+.third_project_mcontent {
   width: 295px;
   height: 87px;
   font-family: 'Inter', sans-serif;
@@ -302,7 +304,8 @@
 
 .first_project_skill_list,
 .second_project_skill_list,
-.third_project_skill_list {
+.third_project_skill_list,
+.third_project_mskill_list {
   flex-direction: row;
   align-items: center;
   gap: 5px;
@@ -310,11 +313,13 @@
   height: 40px;
   list-style: none;
   margin-top: 70px;
+  color: #fff 24%;
 }
 
 .first_project_skills,
 .second_project_skills,
-.third_project_skills {
+.third_project_skills,
+.third_project_mskills {
   align-items: center;
   padding: 10px 12px;
   width: 261px;
@@ -728,6 +733,21 @@
     display: none;
   }
 
+  .nav_brand {
+    width: 100%;
+    height: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    margin-left: 150px;
+  }
+
   .social_media_group {
     flex-direction: column;
     justify-content: space-between;
@@ -737,7 +757,12 @@
   }
 
   .main_section_div {
+    width: 566px;
     margin-left: 130px;
+  }
+
+  .h2_title {
+    width: 566px;
   }
 
   .main_section {
@@ -787,7 +812,7 @@
   }
 
   .multi_story {
-    width: 327px;
+    width: 448px;
     height: 52px;
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
@@ -804,7 +829,7 @@
   .recent_work_text {
     margin-top: 25px;
     margin-left: 720px;
-    width: 327px;
+    width: 448px;
     height: 147px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -921,6 +946,62 @@
 
   .third_project_title {
     display: none;
+  }
+
+  .first_project_title,
+  .third_project_title,
+  .third_project_mtitle {
+    width: 295px;
+    height: 81px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    margin-top: 85px;
+  }
+
+  .second_project_title {
+    display: none;
+  }
+
+  .second_project_dtitle {
+    width: 295px;
+    height: 21px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    margin: 100px 10px;
+  }
+
+  .first_project_skill_list,
+  .second_project_skill_list,
+  .third_project_skill_list,
+  .third_project_mskill_list {
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    width: 236px;
+    height: 40px;
+    list-style: none;
+    margin-top: 70px;
+    color: #fff 24%;
+  }
+
+  .first_project_skills,
+  .second_project_skills,
+  .third_project_skills,
+  .third_project_mskills {
+    align-items: center;
+    padding: 10px 12px;
+    width: 261px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.24);
+    margin-left: 10px;
   }
 
   .About_me {
@@ -1136,5 +1217,48 @@
 
   .see_project_button {
     display: none;
+  }
+
+  .third_project_mtitle {
+    width: 337px;
+    height: 81px;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    margin-top: 100px;
+  }
+
+  .third_project_mcontent {
+    width: 295px;
+    height: 87px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin: -35px 10px;
+  }
+
+  .third_project_mskill_list {
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    width: 236px;
+    height: 40px;
+    list-style: none;
+    color: #fff 24%;
+  }
+
+  .third_project_mskills {
+    align-items: center;
+    padding: 10px 12px;
+    width: 261px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.24);
+    margin: 0 0 30px 10px;
   }
 }
