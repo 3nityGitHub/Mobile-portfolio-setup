@@ -1276,8 +1276,8 @@
   }
 
   .content,
-  h1_title,
-  h2_title {
+  .h1_title,
+  .h2_title {
     animation-duration: 3s;
     animation-name: slidein, ease-in;
   }
