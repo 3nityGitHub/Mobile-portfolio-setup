@@ -1263,11 +1263,10 @@
     margin: 0 0 30px 10px;
   }
 
-    .first_project:hover,
+  .first_project:hover,
   .second_project:hover,
-.third_project:hover,
-.third_project_mobile:hover
-  {
+  .third_project:hover,
+  .third_project_mobile:hover {
     transform: scale(1.05);
   }
 
@@ -1295,7 +1294,4 @@
       width: 100%;
     }
   }
-
 }
-
-
