@@ -1262,4 +1262,17 @@
     background: rgba(255, 255, 255, 0.24);
     margin: 0 0 30px 10px;
   }
+
+    .first_project:hover,
+  .second_project:hover,
+.third_project:hover,
+.third_project_mobile:hover
+  {
+    transform: scale(1.05);
+  }
+
+  .images {
+    transition: all 0.2s ease-out;
+  }
+
 }
