@@ -313,7 +313,6 @@
   height: 40px;
   list-style: none;
   margin-top: 70px;
-  color: #fff 24%;
 }
 
 .first_project_skills,
@@ -326,6 +325,7 @@
   height: 40px;
   background: rgba(255, 255, 255, 0.24);
   margin-left: 10px;
+  color: #fff;
 }
 
 .see_project_works,
