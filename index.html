@@ -221,19 +221,19 @@
 
       <form class="contact_me_form" action="https://formspree.io/f/xoqbwpby" method="post">
 
-          <input class="form_input_fnames" name="first_name" type="text" placeholder="First name" maxlength="30"
-            required>
-          <input class="form_input_lnames" name="last_name" type="text" placeholder="Last name" maxlength="30" required>
-          <input class="form_input_names" name="Full names" type="text" placeholder="Full names" maxlength="30"
-            required>
+          <label for="first_name" class="required_field"><input class="form_input_fnames" name="first_name" type="text" placeholder="First name" maxlength="30"
+            required></label>
+          <label for="last_name" class="required_field2"><input class="form_input_lnames" name="last_name" type="text" placeholder="Last name" maxlength="30" required></label>
+          <label for="first_name" class="required_field_m"><input class="form_input_names" name="Full names" type="text" placeholder="Full names" maxlength="30"
+            required></label>
           <hr class="fullname_line">
           <br>
           <br>
-          <input class="form_input_email" name="email_address" type="email" placeholder="abcd@form.com" required>
+          <label for="email" class="required_field3"><input class="form_input_email" name="email_address" type="email" placeholder="abcd@form.com" required></label>
           <hr class="fullname_line">
           <br>
-          <textarea class="form_input_textarea" name="comment_message" id="" cols="30" rows="5"
-            placeholder="Leave us a message" maxlength="500" required></textarea> <br>
+          <label for="email" class="required_field3"><textarea class="form_input_textarea" name="comment_message" id="" cols="30" rows="5"
+            placeholder="Leave us a message" maxlength="500" required></textarea></label> <br>
           <button type="submit" name="submit" class="get_in_touch_button">Get in touch</button>
 
       </form>

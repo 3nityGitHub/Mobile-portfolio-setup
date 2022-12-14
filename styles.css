@@ -714,6 +714,24 @@
   display: none;
 }
 
+ .required_field_m::after {
+    content: ' *';
+    color: red;
+    float: left;
+  }
+
+   .required_field3::after {
+    content: ' *';
+    color: red;
+    float: left;
+  }
+
+    .required_field4::after {
+    content: ' *';
+    color: red;
+    float: left;
+  }
+
 @media screen and (min-width: 768px) {
   .nav_link a {
     display: flex;
@@ -1295,5 +1313,30 @@
     }
   }
 
-  
+  .required_field::after {
+    content: ' *';
+    color: red;
+    float: left;
+  }
+
+   .required_field2::after {
+    content: ' *';
+    color: red;
+    float: right;
+  }
+
+   .required_field3::after {
+    content: ' *';
+    color: red;
+    float: left;
+  }
+
+    .required_field4::after {
+    content: ' *';
+    color: red;
+    float: left;
+  }
+  .required_field_m{
+    display: none;
+  }
 }
