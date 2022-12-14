@@ -1294,4 +1294,10 @@
       width: 100%;
     }
   }
+
+  .contact_me_form:after {
+    content: " *";
+    color: red;
+    
+  }
 }
