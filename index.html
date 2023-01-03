@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,25 +12,48 @@
     rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <header>
-    <nav class="nav_bar flex">
-      <h1 class="nav_brand">Rapheal Okonta</h1>
-      <ul class="nav_ulist flex">
-        <li class="nav_link"><a href="#recent_works">Portfolio</a></li>
-        <li class="nav_link"><a href="#About">About</a></li>
-        <li class="nav_link"><a href="#form_container_link Contact">Contact</a></li>
-        <li class="nav_link_email"><a href="#"><img src="image folder/Disabled.png" alt="email_icon"></a></li>
-      </ul>
-      <div class="hamburger">
-        <span class="hamburger_icon"></span>
-        <span class="hamburger_icon"></span>
-        <span class="hamburger_icon"></span>
+ <header>
+      <nav class="nav_bar">
+        <a href="#" class="nav_branding">Rapheal Okonta</a>
+        <ul class="nav_menu">
+          <li class="nav_item">
+            <a href="#recent_works_link" class="nav_link">Portfolio</a>
+              <hr class="hr-line_break3">
+          </li>
+          <li class="nav_item">
+            <a href="#aboutmeProject" class="nav_link">About </a>
+          <hr class="hr-line_break3">
+                
+          </li>
+          <li class="nav_item">
+            <a href="#form_container_link" class="nav_link">Contact</a>
+            <hr class="hr-line_break3">
+          </li>
+              <li class="nav_link_email"><a href="#"><img src="image folder/Disabled.png" alt="email_icon"></a></li>
+        </ul>
+        <div class="hamburger_icon">
+          <span class="nav_email_icon"></span>
+          <span class="nav_email_icon"></span>
+          <span class="nav_email_icon"></span>
+        </div>
+      </nav>
+       <div class="mobile_nav_container">
+         <ul class="nav_menu2">
+          <li class="nav_item2">
+            <a href="#recent_work" class="nav_link">Portfolio</a>
+          </li>
+          <li class="nav_item2">
+            <a href="#About" class="nav_link">About </a>  
+          </li>
+          <li class="nav_item2">
+            <a href="#form_container_link Contact" class="nav_link">Contact</a>
+          
+          </li>
+        
       </div>
-    </nav>
-  </header>
-  <section class="main_section flex">
+    </header>
+    <section class="main_section flex">
     <div class="main_section_div">
       <h1 class="h1_title">Hey There. I’m Rapheal!</h1>
       <h2 class="h2_title">I am a Software Developer.</h2>
@@ -46,7 +68,8 @@
       <li class="social_media_icons"> <a href="#"><img src="image folder/medium.svg" alt="Medium"></a></li>
     </ul>
   </section>
-  <section id="recent_works" class="recent_works_section">
+
+  <section id="recent_work" class="recent_works_section">
     <div class="recent_work_div flex">
       <h2 class="recent_work_header">My Recent Works</h2>
       <img class="image_line" src="image folder/recent_work_line.png" alt="line">
@@ -151,15 +174,10 @@
 
       </div>
 
-
-
-
-
     </div>
 
   </section>
-
-  <section id="About" class="About_me">
+<section id="About" class="About_me">
     <div class="about_me_container">
       <h2 class="about_me_title">About me.</h2>
       <p class="about_me_content">Hello I’m a software developer! I can help you build a product , feature or website
@@ -214,6 +232,7 @@
 
     </div>
   </section>
+ 
   <section id="form_container_link Contact" class="form_section">
     <div class="form_container">
       <h3 class="form_text">I'm always interested in hearing about new projects, so if you'd like to chat please get in
@@ -253,6 +272,6 @@
     </ul>
   </footer>
 
+    <script src="script.js"></script>
 </body>
-
 </html>
