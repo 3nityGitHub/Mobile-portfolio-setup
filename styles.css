@@ -11,11 +11,9 @@ a {
   overflow: hidden;
   position: absolute;
   width: 1440px;
-  height: 82px;
-  left: 0px;
-  top: 0px;
-
-  background: #3e3c3c;
+  height: 100px;
+  left: 0;
+  top: 0;
 }
 
 .nav_menu {
@@ -33,6 +31,11 @@ a {
   flex-direction: row;
   margin-left: 90px;
   margin-bottom: 30px;
+  transition: 0.7s ease;
+}
+
+.nav_branding:hover {
+  color: #f55800;
 }
 
 .nav_link {
@@ -42,12 +45,8 @@ a {
   margin-right: 10px;
   transition: 0.7s ease;
 }
-.nav_item {
-  list-style: none;
-}
 
-.nav_link_email {
-  margin-right: 80px;
+.nav_item {
   list-style: none;
 }
 
@@ -134,7 +133,7 @@ a {
 
   .nav_bar {
     width: 100%;
-    min-height: 100px;
+    min-height: 10px;
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -174,8 +173,14 @@ a {
   }
 
   .nav_branding {
-    opacity: 1;
+    width: 100%;
+    height: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
     font-size: 18px;
+    line-height: 24px;
+    opacity: 1;
     display: flex;
     flex-direction: row;
     margin-left: 20px;
@@ -213,7 +218,7 @@ a {
   background-position: 100% 105%;
 }
 
-.main_section_div{
+.main_section_div {
   margin-top: 100px;
 }
 
@@ -477,7 +482,7 @@ a {
   width: 327px;
   height: 48px;
   background: #ff6b00;
-  margin-top: 30px;
+  margin-top: 10px;
   color: #fff5e1;
   border: 1px;
 }
@@ -559,30 +564,27 @@ a {
   width: 100%;
   height: 1751px;
   left: 0;
-  
   background: #1c1a19;
   background-image: url('image folder/Frame.png');
   background-repeat: no-repeat;
   background-position: 100% 23%;
-  
 }
+
 .about_me_container {
   margin: 45px 40px;
 }
 
-
 .about_me_title {
+  display: inline-block;
   width: 347px;
   height: 79px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
- 
+  margin-top: 100px;
   letter-spacing: 0.37px;
   color: #ff6b00;
-   
-  
 }
 
 .about_me_content {
@@ -594,7 +596,7 @@ a {
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
-  margin-top: 130px;
+  margin-top: 40px;
 }
 
 .get_resume {
@@ -623,7 +625,6 @@ a {
   color: #fff;
 }
 
-
 .about_line {
   width: 327px;
   height: 9px;
@@ -636,7 +637,6 @@ a {
   align-items: center;
   padding: 120px 24px;
   gap: 24px;
- 
   width: 329px;
   margin: 145px 45px;
 }
@@ -705,7 +705,7 @@ a {
   padding-left: 24px;
   padding-right: 24px;
   gap: 58px;
-  margin-top: 1500px;
+  margin-top: 50px;
 }
 
 .form_text {
@@ -875,7 +875,6 @@ a {
   float: left;
 }
 
-
 @media screen and (min-width: 768px) {
   .nav_link a {
     display: flex;
@@ -888,14 +887,14 @@ a {
     display: flex;
     text-decoration: none;
     color: #fff;
-    margin: -10px 60px -40px 0;
+    margin: -30px 120px -40px 0;
   }
 
   .hamburger_icon {
     display: none;
   }
 
-  .nav_brand {
+  .nav_branding {
     width: 100%;
     height: 24px;
     font-family: 'Roboto', sans-serif;
@@ -907,7 +906,8 @@ a {
     align-items: center;
     text-align: center;
     color: #fff;
-    margin-left: 150px;
+    margin-left: 160px;
+    margin-top: 30px;
   }
 
   .social_media_group {
@@ -933,11 +933,12 @@ a {
     height: 769.27px;
     background-image: url('image folder/Illustration-header.png');
     background-repeat: no-repeat;
-    background-position: 100% 30%;
+    background-position: 100% 20%;
   }
 
   .recent_works_section {
     margin-left: 105px;
+    margin-top: 802px;
   }
 
   .img_placeholder {
@@ -1096,7 +1097,7 @@ a {
   }
 
   .see_project_works3 {
-    margin-top: 235px;
+    margin-top: 225px;
   }
 
   .third_project_content {
@@ -1176,7 +1177,7 @@ a {
     background: #1c1a19;
     background-image: url('image folder/desktop\ Frame.png');
     background-repeat: no-repeat;
-    background-position: 100% 10%;
+    background-position: 100% 15%;
     margin-top: -1600px;
   }
 
@@ -1184,7 +1185,7 @@ a {
     width: 1159px;
     height: 9px;
     position: absolute;
-    margin: 100px 80px;
+    margin: 10px 80px;
   }
 
   .about_me_container {
@@ -1353,7 +1354,7 @@ a {
     padding-left: 24px;
     padding-right: 24px;
     gap: 58px;
-    margin-top: 1500px;
+    margin-top: 1400px;
   }
 
   .get_in_touch_button {
